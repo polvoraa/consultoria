@@ -6,7 +6,7 @@
     font-family: "Poppins", sans-serif;
 }
 body {
-    background-color: #1d1a23;
+    background-color: #272727;
     height: 100vh;
 }
 
@@ -37,7 +37,7 @@ h2.titulo{
 }
 
 h2.titulo span{
-    color:#874aff;
+    color:#4a83ff;
 }
 
 button:hover,form .btn-enviar input:hover{
@@ -96,7 +96,7 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site .txt-topo-site h1 span{
-    color: #874aff;
+    color: #4a83ff;
 }
 
 .topo-do-site .txt-topo-site p{
@@ -128,7 +128,7 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box i{
     font-size: 70px;
-    color: #874aff;
+    color: #4a83ff;
 }
 
 .especialidades .especialidades-box h3{
@@ -156,7 +156,7 @@ section.sobre .flex{
     margin-bottom: 30px;
 }
 .sobre .txt-sobre h2 span{
-    color: #874aff;
+    color: #4a83ff;
     display: block;
 }
 
@@ -169,7 +169,7 @@ section.sobre .flex{
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #874aff;
+    background-color: #4a83ff;
     font-size: 30px;
     cursor: pointer;
     margin: 0 10px;
@@ -263,7 +263,7 @@ form button{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #874aff;
+    background-color: #4a83ff;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -278,7 +278,7 @@ form h2{
 }
 
 form h2 span{
-    color: #874aff;
+    color: #4a83ff;
 }
 
 
@@ -303,7 +303,7 @@ section.rodape .flex{
     margin-bottom: 30px;
 }
 .rodape .txt-rodape h2 span{
-    color: #874aff;
+    color: #4a83ff;
     margin-bottom: 20px
 }
 
@@ -312,7 +312,7 @@ section.rodape .flex{
 }
 
 .rodape .txt-rodape p span{
-    color: #874aff;
+    color: #4a83ff;
 }
 
 .rodape .txt-rodape .btn-social button{
@@ -320,7 +320,7 @@ section.rodape .flex{
     height: 40px;
     border-radius: 50%;
     border: none;
-    background-color: #874aff;
+    background-color: #4a83ff;
     font-size: 20px;
     cursor: pointer;
     margin: 20px 10px;
