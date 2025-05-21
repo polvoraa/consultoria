@@ -56,6 +56,11 @@ header > .interface{
     justify-content: space-between;
 }
 
+header > .logo{
+    color:#fff;
+    font-size: 38px;
+}
+
 header a{
     color: #adadad;
     text-decoration: none;
