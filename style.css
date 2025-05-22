@@ -56,10 +56,6 @@ header > .interface{
     justify-content: space-between;
 }
 
-header > .logo{
-    color:#000000;
-    font-size: 38px;
-}
 
 header a{
     color: #adadad;
@@ -80,6 +76,11 @@ header nav ul{
 header nav ul li{
     display: inline-block;
     padding: 0 40px;
+}
+
+header.logo{
+    width: 200px;
+    height: auto;
 }
 
 /* ESTILO DO TOPO DO STIE */
