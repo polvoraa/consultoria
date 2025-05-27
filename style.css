@@ -21,12 +21,13 @@ body {
 }
 
 .btn-contato button{
+    color:#fff;
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
     background-color: #000000;
     border: 0;
-    border-radius: 30px;
+    border-radius: 10px;
     cursor: pointer;
     transition: .2s;
 }
@@ -38,7 +39,7 @@ h2.titulo{
 }
 
 h2.titulo span{
-    color:#4a83ff;
+    color:#104975;
 }
 
 button:hover,form .btn-enviar input:hover{
@@ -52,8 +53,10 @@ button:hover,form .btn-enviar input:hover{
     width: 200px;
     height: auto;
 }
+
 header{
     padding: 10px 4%;
+    background-color: #fff;
 }
 
 header > .interface{
@@ -64,9 +67,12 @@ header > .interface{
 
 
 header a{
-    color: #adadad;
+    color: #ffffff;
     text-decoration: none;
     display: inline-block;
+    background-color: #104975;
+    padding: 10px 30px;
+    border-radius: 10px;
 }
 
 header a:hover{
@@ -93,6 +99,7 @@ header.logo{
 
 section.topo-do-site{
     padding: 40px 4%;
+    margin-top: 60px;
 }
 
 section.topo-do-site .flex{
@@ -108,7 +115,7 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site .txt-topo-site h1 span{
-    color: #4a83ff;
+    color: #104975;
 }
 
 .topo-do-site .txt-topo-site p{
@@ -140,7 +147,7 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box i{
     font-size: 70px;
-    color: #4a83ff;
+    color: #104975;
 }
 
 .especialidades .especialidades-box h3{
@@ -159,17 +166,17 @@ section.sobre .flex{
 
 .sobre .txt-sobre{
     color: #000000;
-
 }
 
 .sobre .txt-sobre h2{
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
+    align-items: center;
 }
+
 .sobre .txt-sobre h2 span{
-    color: #4a83ff;
-    display: block;
+    color: #104975;
 }
 
 .sobre .txt-sobre p{
@@ -177,11 +184,12 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre .btn-social button{
+    color:#fff;
     width: 60px;
     height: 60px;
-    border-radius: 50%;
+    border-radius: 10px;
     border: none;
-    background-color: #4a83ff;
+    background-color: #104975;
     font-size: 30px;
     cursor: pointer;
     margin: 0 10px;
@@ -254,12 +262,13 @@ form{
     flex-direction: column;
     gap: 10px;
     margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 form input, form textarea{
     width: 100%;
     background-color: #fff;
-    border: 0;
+    border: 2;
     outline: 2;
     border-radius: 20px;
     font-size: 15px;
@@ -273,12 +282,13 @@ form textarea{
 }
 
 form button{
+    color:#fff;
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #4a83ff;
+    background-color: #104975;
     border: 0;
-    border-radius: 30px;
+    border-radius: 10px;
     cursor: pointer;
     transition: .2s;
 }
@@ -291,7 +301,7 @@ form h2{
 }
 
 form h2 span{
-    color: #4a83ff;
+    color: #104975;
 }
 
 
@@ -307,7 +317,6 @@ section.rodape .flex{
 
 .rodape .txt-rodape{
     color: #000000;
-
 }
 
 .rodape .txt-rodape h2{
@@ -316,7 +325,7 @@ section.rodape .flex{
     margin-bottom: 30px;
 }
 .rodape .txt-rodape h2 span{
-    color: #4a83ff;
+    color: #104975;
     margin-bottom: 20px
 }
 
@@ -325,15 +334,16 @@ section.rodape .flex{
 }
 
 .rodape .txt-rodape p span{
-    color: #4a83ff;
+    color: #104975;
 }
 
 .rodape .txt-rodape .btn-social button{
+    color:#fff;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
+    border-radius: 10px;
     border: none;
-    background-color: #4a83ff;
+    background-color: #104975;
     font-size: 20px;
     cursor: pointer;
     margin: 20px 10px;
