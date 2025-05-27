@@ -5,6 +5,7 @@
     box-sizing:border-box;
     font-family: "Poppins", sans-serif;
 }
+
 body {
     background-color: #FFFFFF;
     height: 100vh;
@@ -46,6 +47,11 @@ button:hover,form .btn-enviar input:hover{
 }
 
 /* ESTILO DO CABEÇALHO */
+
+.interface .logo{
+    width: 200px;
+    height: auto;
+}
 header{
     padding: 10px 4%;
 }
