@@ -48,15 +48,9 @@ button:hover,form .btn-enviar input:hover{
 }
 
 /* ESTILO DO CABEÇALHO */
-
-.interface .logo{
-    width: 200px;
-    height: auto;
-}
-
 header{
-    padding: 10px 4%;
-    background-color: #fff;
+    padding: 30px 4%;
+    background-color: #00000004;
 }
 
 header > .interface{
@@ -99,7 +93,7 @@ header.logo{
 
 section.topo-do-site{
     padding: 40px 4%;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 section.topo-do-site .flex{
