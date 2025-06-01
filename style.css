@@ -5,7 +5,6 @@
     box-sizing:border-box;
     font-family: "Poppins", sans-serif;
 }
-
 body {
     background-color: #FFFFFF;
     height: 100vh;
@@ -21,11 +20,11 @@ body {
 }
 
 .btn-contato button{
-    color:#fff;
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #000000;
+    background-color: #104774;
+    color: #fff;
     border: 0;
     border-radius: 10px;
     cursor: pointer;
@@ -33,13 +32,13 @@ body {
 }
 
 h2.titulo{
-    color:#000000;
+    color:#104774;
     font-size: 38px;
     text-align: center;
 }
 
 h2.titulo span{
-    color:#104975;
+    color:#104774;
 }
 
 button:hover,form .btn-enviar input:hover{
@@ -49,8 +48,8 @@ button:hover,form .btn-enviar input:hover{
 
 /* ESTILO DO CABEÇALHO */
 header{
-    padding: 30px 4%;
-    background-color: #00000004;
+    padding: 10px 4%;
+    background-color: #e9e6e3;
 }
 
 header > .interface{
@@ -61,12 +60,9 @@ header > .interface{
 
 
 header a{
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     display: inline-block;
-    background-color: #104975;
-    padding: 10px 30px;
-    border-radius: 10px;
 }
 
 header a:hover{
@@ -77,6 +73,9 @@ header a:hover{
 
 header nav ul{
     list-style-type: none;
+    background-color: #104774;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 header nav ul li{
@@ -84,8 +83,8 @@ header nav ul li{
     padding: 0 40px;
 }
 
-header.logo{
-    width: 200px;
+.interface.logo{
+    width: 50px;
     height: auto;
 }
 
@@ -93,7 +92,6 @@ header.logo{
 
 section.topo-do-site{
     padding: 40px 4%;
-    margin-top: 40px;
 }
 
 section.topo-do-site .flex{
@@ -103,13 +101,13 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site .txt-topo-site h1{
-    color: #000000;
+    color: #104774;
     font-size: 42px;
     line-height: 40px;
 }
 
 .topo-do-site .txt-topo-site h1 span{
-    color: #104975;
+    color: #104774;
 }
 
 .topo-do-site .txt-topo-site p{
@@ -141,7 +139,7 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box i{
     font-size: 70px;
-    color: #104975;
+    color: #104774;
 }
 
 .especialidades .especialidades-box h3{
@@ -166,11 +164,10 @@ section.sobre .flex{
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
-    align-items: center;
+    color:#104774;
 }
-
 .sobre .txt-sobre h2 span{
-    color: #104975;
+    color: #104774;
 }
 
 .sobre .txt-sobre p{
@@ -178,12 +175,11 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre .btn-social button{
-    color:#fff;
     width: 60px;
     height: 60px;
-    border-radius: 10px;
+    border-radius: 50%;
     border: none;
-    background-color: #104975;
+    background-color: #104774;
     font-size: 30px;
     cursor: pointer;
     margin: 0 10px;
@@ -264,7 +260,7 @@ form input, form textarea{
     background-color: #fff;
     border: 2;
     outline: 2;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 15px;
     padding: 20px 15px;
     box-shadow: 0px 0px 8px #ffffff36;
@@ -276,11 +272,11 @@ form textarea{
 }
 
 form button{
-    color:#fff;
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #104975;
+    background-color: #104774;
+    color:#fff;
     border: 0;
     border-radius: 10px;
     cursor: pointer;
@@ -288,14 +284,14 @@ form button{
 }
 
 form h2{
-    color:#000000;
+    color:#104774;
     font-size: 38px;
     text-align: center;
     margin-bottom: 10px;
 }
 
 form h2 span{
-    color: #104975;
+    color: #104774;
 }
 
 
@@ -311,6 +307,7 @@ section.rodape .flex{
 
 .rodape .txt-rodape{
     color: #000000;
+
 }
 
 .rodape .txt-rodape h2{
@@ -319,7 +316,7 @@ section.rodape .flex{
     margin-bottom: 30px;
 }
 .rodape .txt-rodape h2 span{
-    color: #104975;
+    color: #104774;
     margin-bottom: 20px
 }
 
@@ -328,16 +325,15 @@ section.rodape .flex{
 }
 
 .rodape .txt-rodape p span{
-    color: #104975;
+    color: #104774;
 }
 
 .rodape .txt-rodape .btn-social button{
-    color:#fff;
     width: 40px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 50%;
     border: none;
-    background-color: #104975;
+    background-color: #104774;
     font-size: 20px;
     cursor: pointer;
     margin: 20px 10px;
